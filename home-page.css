@@ -18,7 +18,7 @@ body {
   max-width: 400px;
   padding: 20px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  background: rgba(45, 45, 45, 0.8); /* Semi-transparent background */
   backdrop-filter: blur(30px); /* Blur effect */
   -webkit-backdrop-filter: blur(30px); /* Blur effect for Safari */
   color: black;
