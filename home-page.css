@@ -29,8 +29,8 @@ body {
   background: rgba(10, 10, 10, 0.9 ); /* Couleur blanche transparente */
   border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Ombre floue */
-  backdrop-filter: blur(30px) saturate(180%); /* Effet de flou pour simuler le verre */
-  -webkit-backdrop-filter: blur(30px) saturate(180%);
+  backdrop-filter: blur(30px); /* Effet de flou pour simuler le verre */
+  -webkit-backdrop-filter: blur(30px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   text-align: center;
 }
