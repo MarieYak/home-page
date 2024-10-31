@@ -26,7 +26,7 @@ body {
   width: 100%;
   max-width: 400px;
   padding: 20px;
-  background: rgba(10, 10, 10, 0.5); /* Couleur blanche transparente */
+  background: rgba(10, 10, 10, 0.8); /* Couleur blanche transparente */
   border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2); /* Ombre floue */
   backdrop-filter: blur(30px) saturate(180%); /* Effet de flou pour simuler le verre */
