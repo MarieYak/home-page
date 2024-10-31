@@ -60,6 +60,7 @@ label {
 input[type="text"],
 input[type="password"] {
   width: 100%;
+  max-width: 400px;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -89,6 +90,7 @@ button {
   justify-content: center;
   align-items: center;
   width: 40%;
+  max-width: 100px;
   padding: 10px;
   background: linear-gradient(45deg, rgb(231, 156, 254), rgb(200, 0, 255));
   border: none;
