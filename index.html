@@ -21,8 +21,8 @@
   
   <div class="connexion-container">
     <h2 neon-text>Connectez-vous</h2>
-    
-    <form action="/connexion" method="post">
+    <div class="form-container">
+      <form action="/connexion" method="post">
       <div class="form-group">
         <label for="username">Nom d'utilisateur</label>
         <input type="text" id="username" name="username" required>
@@ -43,10 +43,12 @@
       </div>
       
       
-    </form>
-    <div class="bth-container">
-      <button type="submit">Connexion</button>
+      </form>
+      <div class="bth-container">
+        <button type="submit">Connexion</button>
+      </div>
     </div>
+    
   </div>
 </body>
 </html>
