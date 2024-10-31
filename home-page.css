@@ -9,8 +9,7 @@ body {
   background-image: url('blackboard.webp');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  filter: brightness(0.8);
+  
 }
 
 .connexion-container {
