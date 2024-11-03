@@ -45,9 +45,10 @@ body {
   align-items: center;
 }
 h2 {
-  
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-  background: linear-gradient(45deg, rgb(231, 156, 254), rgb(200, 0, 255)); /* Dégradé du cyan au magenta */
+  /*background: linear-gradient(45deg, rgb(231, 156, 254), rgb(200, 0, 255));*/
+  background: linear-gradient(to right, #fba3c5 40%, #fff3ae, #fbc870 );
   color: transparent;
   background-clip: text; /* Applique le dégradé au texte */
   -webkit-background-clip: text;
@@ -93,7 +94,7 @@ input[type="password"] {
 }
 
 a {
-  color: rgb(224, 127, 251);
+  color: #fbc870;
   text-decoration: none;
 }
 
@@ -105,17 +106,18 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  max-width: 100px;
+  max-width: 200px;
   padding: 10px;
-  background: linear-gradient(45deg, rgb(231, 156, 254), rgb(200, 0, 255));
+  /*background: linear-gradient(45deg, rgb(231, 156, 254), rgb(200, 0, 255));*/
+  /*background: linear-gradient(to left, #c956fe, #8cfcca, #fbc870, #fff3ae, #fba3c5 );*/
+  background: linear-gradient( 140deg, #fba3c5 40%, #fff3ae);
   border: none;
   border-radius: 20px;
-  color: #fff;
+  color: black;
   font-size: 16px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: rgb(200, 0, 255);
+  background: linear-gradient( 140deg, #fd7bad 40%, #fbea88);
 }
