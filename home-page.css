@@ -48,7 +48,7 @@ h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   /*background: linear-gradient(45deg, rgb(231, 156, 254), rgb(200, 0, 255));*/
-  background: linear-gradient(to right, #fd7bad 40%, #fff3ae, #fbc870 );
+  background: linear-gradient(to right, #fba3c5 40%, #fff3ae, #fbc870 );
   color: transparent;
   background-clip: text; /* Applique le dégradé au texte */
   -webkit-background-clip: text;
